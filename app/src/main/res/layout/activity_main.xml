@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:id="@+id/appbar_main"
+        android:background="#ffffff"
+        android:layout_height="wrap_content">
+
+
+        <androidx.appcompat.widget.Toolbar
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/toolbat_main">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Treino app Estacio"
+                android:id="@+id/txt_title"
+                android:textStyle="bold"
+                android:textColor="@android:color/black"
+                android:textSize="20sp"/>
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        app:cardElevation="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        app:cardCornerRadius="10dp"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/appbar_main"
+        android:id="@+id/card_main">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/img_treino"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:scaleType="centerCrop"
+                android:alpha="0"
+                android:src="@drawable/image3" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="6dp"
+                android:textAlignment="center"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:text="Escolha um exercicio abaixo"
+                android:textSize="30sp"
+                android:alpha="0"
+                android:layout_alignBottom="@id/img_treino"
+                android:background="@drawable/background_label"
+                android:id="@+id/txt_escolha"/>
+        </RelativeLayout>
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        tools:listitem="@layout/layout_celula"
+        android:layout_height="match_parent"
+        android:padding="6dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginStart="6dp"
+        android:id="@+id/lista_main"
+        android:layout_below="@id/card_main"/>
+
+
+
+
+</RelativeLayout>

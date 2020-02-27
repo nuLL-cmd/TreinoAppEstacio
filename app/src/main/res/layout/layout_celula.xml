@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/relative_celula"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt_letra"
+            android:text="A"
+            android:layout_alignParentStart="true"
+            android:textSize="40sp"
+            android:textAlignment="center"
+            android:background="@drawable/background_txt"
+            android:textColor="@android:color/white"
+            android:layout_alignParentLeft="true" />
+
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_alignTop="@id/txt_letra"
+            android:layout_alignBottom="@id/txt_letra"
+            android:id="@+id/txt_titulo"
+            android:textSize="20sp"
+            android:layout_toStartOf="@id/img_fav"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:layout_toEndOf="@id/txt_letra"
+            android:background="#ffffff"
+            android:textStyle="bold"
+            android:text="Teto Teste"
+            android:textColor="@color/colorTimeIn"
+            android:layout_toLeftOf="@id/img_fav"
+            android:layout_toRightOf="@id/txt_letra" />
+
+        <ImageView
+            android:layout_width="70dp"
+            android:id="@+id/img_fav"
+            android:layout_height="0dp"
+            android:layout_alignTop="@id/txt_titulo"
+            android:src="@drawable/ic_accessibility_black_24dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignBottom="@id/txt_titulo"
+            android:background="@drawable/background_edt2"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

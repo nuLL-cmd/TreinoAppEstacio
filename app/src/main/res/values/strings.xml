@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Train App</string>
+
+    <string-array name="lista_treino">
+        <item>Membros superiores</item>
+        <item>Membros inferiores</item>
+        <item>Cardiorespiratorio</item>
+        <item>Core</item>
+        <item>Abdomen</item>
+        <item>Corrida</item>
+        <item>Meditação</item>
+        <item>Murphy</item>
+        <item>Barras</item>
+        <item>Capoeira</item>
+    </string-array>
+
+    <string-array name="lista_letra">
+        <item>A</item>
+        <item>B</item>
+        <item>C</item>
+        <item>D</item>
+        <item>E</item>
+        <item>F</item>
+        <item>G</item>
+        <item>H</item>
+        <item>I</item>
+        <item>J</item>
+    </string-array>
+
+    <string-array name="lista1">
+        <item>Corrida</item>
+        <item>Barra</item>
+        <item>Flexão</item>
+        <item>Abdominal</item>
+        <item>Musculação</item>
+    </string-array>
+
+    <string-array name="lista2">
+        <item>Aquecimento</item>
+        <item>Corrida</item>
+        <item>Barra</item>
+        <item>Flexão</item>
+        <item>Luta</item>
+    </string-array>
+
+    <string-array name="listaDefault">
+        <item>Corrida</item>
+        <item>Barra</item>
+        <item>Flexão</item>
+        <item>Luta</item>
+        <item>Musculação</item>
+    </string-array>
+</resources>

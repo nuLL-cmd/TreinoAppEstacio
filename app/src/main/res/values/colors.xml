@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#777979</color>
+    <color name="colorPrimaryDark">#039BE5</color>
+    <color name="colorAccent">#222222</color>
+    <color name="colorTimeOut">#E53935</color>
+    <color name="colorTimeIn">#797777</color>
+</resources>
